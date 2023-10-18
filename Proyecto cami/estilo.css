@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    
+}
+header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+    padding-top: 20px;
+}
+
+nav {
+    background-color: rgb(255, 197, 197);
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-vin{
+    display: inline-block;
+    background-color: rgb(255, 197, 197);
+    padding: 30px 30px;
+}
+
+.nav-vin {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav-vin:hover {
+background-color: rgb(156, 92, 216);
+
+
+}
+
+.BANNER1 {
+    margin-top: -50px;
+    height: 500px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#sobremi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    }
+
+.imagenperfil {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    padding: 10px;
+}
+
+.cv  {
+    margin-top: 10px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.rapports {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+
+}
+
+.img-1 {
+    height: 300px;
+    width: 300px;
+}
+.img-2 {
+    height: 300px;
+    width: 300px;
+}
+.img-3 {
+    height: 300px;
+    width: 300px;
+}
+
+.ilustración {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+
+}
+.img-4 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.img-5 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.img-6 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.fotografia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+
+}
+
+.img-7 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.img-8 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.img-9 {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+
+section {
+    text-align: center;
+padding-top: 50px;
+
+}
+
+
+form {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding 1fr 2fr 2fr 1fr
+    max-width: 900px;
+}
+
+.datos {
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: rgb(224, 195, 252);
+    color: white;
+    padding: 50px 50px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.formbox {
+    color: rgb(255, 255, 255);
+    position: relative;
+    width: 400px;
+    height: 500px;
+    padding: 50px 50px;
+    background-color:rgb(255, 197, 197);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.formbox input {
+    position: relative;
+    width: 100%;
+    max-width: 300px;;
+    padding: 10px 5px 5px;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+input:hover{
+    border-color: rgb(229, 138, 252);
+}
+
+.formbox .chek {
+align-items: start;
+text-align: start;
+}
+
+textarea {
+    padding: 30px 10px 10px;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+textarea:hover{
+    border-color: rgb(229, 138, 252);
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    width: 300px;
+    max-height: 200px;
+    padding: 10px 10px;
+}
+.main__boton {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.main__boton:hover {
+    color: aliceblue;
+    background-color: black;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin: auto;
+
+}
+
