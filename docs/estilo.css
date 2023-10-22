@@ -19,7 +19,7 @@ header {
     background-size: cover;
 }
 
-/*ANIMACION */
+/*ANIMACION DEL TITULO */
 .alima {
     font-size: 90px;
     animation-name: Mianimacion;
@@ -110,6 +110,9 @@ background-color: rgb(156, 92, 216);
     max-width: 100%;
 }
 
+
+/* Mini descripcion sobre mi */
+
 #sobremi {
     display: flex;
     flex-direction: row;
@@ -132,6 +135,8 @@ background-color: rgb(156, 92, 216);
     text-align: justify;
     margin-left: 20px;
 }
+
+/*Aca arranca el portfolio*/
 
 .rapports {
     display: flex;
@@ -179,6 +184,8 @@ section {
 padding-top: 50px;
 
 }
+
+/*Aca arranca el formulario*/
 
 .tituloformulario {
     margin-top: 30px;
@@ -272,6 +279,8 @@ fieldset {
     background-color: black;
     box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.3);
 }
+
+/*Pie de pagina*/
 
 footer {
     text-align: center;
