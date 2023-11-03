@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina prueba</title>
+    <link rel="stylesheet" href="/CSS/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</head>
+<!-- Acá arranca la pagina -->
+<body>
+    <!-- Encabezado de la pagina -->
+    <header>
+        <h1 class="alima">ALI<span class="rotate">M</span>A</h1>
+        <br>
+        <nav>
+            <a href="/index.html" class="nav-vin">SOBRE MI</a>
+            <a href="#portfolio" class="nav-vin">PORTFOLIO</a>
+            <a href="/Secciones/contacto.html" class="nav-vin">CONTACTO</a>
+        </nav>
+    </header>
+
+    <section> <img class="BANNER1" src="/imagenes/banner-02.jpg" alt="imagen de patter pintado a mano"></section>
+
+
+        <!-- Formulario para que me dejen sus consultas -->
+    <h2 class="tituloformulario" style="background-color:  rgb(255, 197, 197); color: white;;">DEJAME TU  MENSAJE</h2>
+    <form id="contacto" method="post">
+        <div class="datos">
+            <h2>Estas interesado si:</h2> <br>
+            <p> - Si tenes una pregunta
+            </p>
+            <p> - Si sueñas con un diseño exclusivo</p>
+            <p> - Si queres una ilustración para tu negocio</p> <br>
+            <h2>Correo electronico</h2>
+            <p>Camilapereiramurioni@gmail.com</p> <br>
+
+            <h2>Más sobre mis diseños:</h2> <br>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/alima.arte/"><box-icon type='logo' color="white"name='instagram-alt'></box-icon></a> 
+                <a href="#"><box-icon name='tiktok' type='logo' color="white" ></box-icon> </a>
+                <a href="https://ar.linkedin.com/in/camila-pereira-murioni-b12a89142"><box-icon name='linkedin-square' type='logo' color="white" ></box-icon></a>
+            </div>
+        </div>
+        <div class="formbox">
+
+            <label for="name">Nombre y apellido:</label> <br>
+            <input type="text" required><br>
+            <label for="name" required>Mail:</label> <br>
+            <input type="text">
+            <br>
+            <label for="name"> Contame acerca de tu proyecto: </label> <br>
+            <textarea name="contame" id="" cols="30" rows="10">
+            </textarea> <br>
+        <fieldset>
+            <legend style="text-align: center;">¿Sobre que tema es tu consulta?</legend>
+            <br>
+            <input type="checkbox">
+            <label for="Patterns">Patterns</label>
+            <br>
+            <input type="checkbox">
+            <label for="Ilustración">Ilustración</label>
+            <br>
+            <input type="checkbox">
+            <label for="Fotografia">Fotografia</label>
+            <br>
+            <input type="checkbox">
+            <label for="Algo más">Otro tema</label>
+        </fieldset> <br>
+        <input class="main__boton" type="submit" value="Enviar Consulta">
+        </div>
+    </form>
+
+        <!-- Pie de pagina -->
+        <footer>
+            <p> ALIMA | Camila Ayelen Pereira Murioni </p>
+        </footer>
+
+    <script src="./Scrip/script.js"></script>
+
+</body>
+</html>

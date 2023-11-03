@@ -108,6 +108,7 @@ background-color: rgb(156, 92, 216);
     margin-top: -50px;
     height: 400px;
     max-width: 100%;
+    overflow: hidden;
 }
 
 
@@ -134,9 +135,38 @@ background-color: rgb(156, 92, 216);
     margin-top: 10px;
     text-align: justify;
     margin-left: 20px;
+    margin-bottom: 10%;
 }
 
 /*Aca arranca el portfolio*/
+
+/* para que las imagenes se abran */
+.ful-img{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0,0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+.ful-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.ful-img img{
+    width: 90%;
+    max-width: 600px;
+}
+
+/* acá ya es como se ven en la pagina principal*/ 
 
 .rapports {
     display: flex;
@@ -149,7 +179,16 @@ background-color: rgb(156, 92, 216);
 .img-1 {
     height: 300px;
     width: 300px;
+    cursor: pointer;
+    box-shadow: 1px 10px 15px rgb(0, 0, 0,0.50);
 }
+
+.img-1:hover {
+    transform: scale(1.5);
+
+
+}
+
 
 .ilustración {
     display: flex;
@@ -162,21 +201,37 @@ background-color: rgb(156, 92, 216);
     height: 300px;
     width: 300px;
     object-fit: cover;
+    cursor: pointer;
+    box-shadow: 1px 10px 15px rgb(0, 0, 0,0.50);
+}
+
+
+.img-2:hover {
+    transform: scale(1.5);
 
 }
+
 
 .fotografia {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 2%;
+    
 }
 
 .img-3 {
     height: 300px;
     width: 300px;
     object-fit: cover;
-    padding-bottom: 80px;
+    cursor: pointer;
+    box-shadow: 1px 10px 15px rgb(0, 0, 0,0.50);
+}
+
+
+.img-3:hover {
+    transform: scale(1.5);
+
 }
 
 section {
