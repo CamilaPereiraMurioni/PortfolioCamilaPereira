@@ -170,15 +170,17 @@ background-color: rgb(156, 92, 216);
 
 .rapports {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    gap: 2%;
+    gap: 5px;
+    max-width: 600px;
+    margin: auto; 
 
 }
 
 .img-1 {
-    height: 300px;
-    width: 300px;
+    height: 600px;
+    width: 600px;
     cursor: pointer;
     box-shadow: 1px 10px 15px rgb(0, 0, 0,0.50);
 }
@@ -192,14 +194,16 @@ background-color: rgb(156, 92, 216);
 
 .ilustración {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    gap: 2%;
+    gap: 5px;
+    max-width: 600px;
+    margin: auto; 
 
 }
 .img-2 {
-    height: 300px;
-    width: 300px;
+    height: 600px;
+    width: 600px;
     object-fit: cover;
     cursor: pointer;
     box-shadow: 1px 10px 15px rgb(0, 0, 0,0.50);
@@ -214,15 +218,16 @@ background-color: rgb(156, 92, 216);
 
 .fotografia {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    gap: 2%;
-    
+    gap: 5px;
+    max-width: 600px;
+    margin: auto; 
 }
 
 .img-3 {
-    height: 300px;
-    width: 300px;
+    height: 600px;
+    width: 600px;
     object-fit: cover;
     cursor: pointer;
     box-shadow: 1px 10px 15px rgb(0, 0, 0,0.50);
@@ -331,8 +336,9 @@ fieldset {
 
 .main__boton:hover {
     color: aliceblue;
-    background-color: black;
-    box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.3);
+    background-color: rgb(42, 36, 44);
+    cursor: pointer;
+    box-shadow: 3px 3px 2px 1px rgb(255, 197, 197);
 }
 
 /*Pie de pagina*/
