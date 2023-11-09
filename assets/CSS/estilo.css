@@ -170,23 +170,24 @@ background-color: rgb(156, 92, 216);
 
 .rapports {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    gap: 5px;
-    max-width: 600px;
+    justify-content: space-around;
+    gap: 20px;
+    max-width: 400px;
     margin: auto; 
 
 }
 
 .img-1 {
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
     cursor: pointer;
     box-shadow: 1px 10px 15px rgb(0, 0, 0,0.50);
 }
 
 .img-1:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 
 
 }
@@ -194,16 +195,16 @@ background-color: rgb(156, 92, 216);
 
 .ilustración {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    gap: 5px;
-    max-width: 600px;
+    gap: 20px;
+    max-width: 400px;
     margin: auto; 
 
 }
 .img-2 {
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
     object-fit: cover;
     cursor: pointer;
     box-shadow: 1px 10px 15px rgb(0, 0, 0,0.50);
@@ -211,23 +212,23 @@ background-color: rgb(156, 92, 216);
 
 
 .img-2:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 
 }
 
 
 .fotografia {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    gap: 5px;
-    max-width: 600px;
+    gap: 20px;
+    max-width: 400px;
     margin: auto; 
 }
 
 .img-3 {
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
     object-fit: cover;
     cursor: pointer;
     box-shadow: 1px 10px 15px rgb(0, 0, 0,0.50);
@@ -235,15 +236,39 @@ background-color: rgb(156, 92, 216);
 
 
 .img-3:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 
 }
 
 section {
     text-align: center;
 padding-top: 50px;
-
 }
+
+.Portfolio_boton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    max-width: 150px;
+    margin: auto; 
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+
+.Portfolio_boton:hover {
+    color: aliceblue;
+    background-color: rgb(42, 36, 44);
+    cursor: pointer;
+    box-shadow: 3px 3px 2px 1px rgb(255, 197, 197);
+}
+
 
 /*Aca arranca el formulario*/
 
@@ -349,6 +374,7 @@ footer {
     color: white;
     padding: 50px;
     margin: auto;
+    margin-top: 5%;
 }
 
 .imagenfooter {
