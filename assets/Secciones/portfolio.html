@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina prueba</title>
-    <link rel="stylesheet" href="./CSS/estilo.css">
+    <link rel="stylesheet" href="../CSS/estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
         <meta name="author" content="Camila Ayelen Pereira Murioni" />
         <meta name="copyright" content="Propietario del copyright"/>
         <!-- favicon -->
-        <link rel="icon" href="./imagenes/favicon.ico.png">
+        <link rel="icon" href="../imagenes/favicon.ico.png">
 
 </head>
 <!-- Acá arranca la pagina -->
@@ -28,22 +28,15 @@
         <h1 class="alima">ALI<span class="rotate">M</span>A</h1>
         <br>
         <nav>
-            <a href="/index.html" class="nav-vin">SOBRE MI</a>
-            <a href="/Secciones/Portfolio.html" class="nav-vin">PORTFOLIO</a>
-            <a href="./Secciones/contacto.html" class="nav-vin">CONTACTO</a>
+            <a href="../index.html" class="nav-vin">SOBRE MI</a>
+            <a href="#portfolio" class="nav-vin">PORTFOLIO</a>
+            <a href="../Secciones/contacto.html" class="nav-vin">CONTACTO</a>
         </nav>
     </header>
 
-    <section> <img class="BANNER1" src="./imagenes/banner-02.jpg" alt="imagen de patter pintado a mano"></section>
-    <section>
-        <article id="sobremi"> 
-            <img class="imagenperfil" src="./imagenes/perfil.jpg" alt=""> 
-            <p class="cv">Mi nombre es <b>Camila Ayelen Pereira Murioni</b>, me recibi de la Universidad de Buenos Aires (UBA), en la cual obtuve mi titulo de Diseñaroda Textil, trabajo desde el año 2017, aprovechando mi experiencia en el campo. En este momento soy freelance para empresas de moda y estudios de diseño. Además, trabajo como ilustradora, diseñadora gráfico y de fotografa, conocimientos que adquiri gracias a distintos cursos y experiencia laboral en el area. Mi trabajo fusiona las artes manuales con el diseño digital para lograr reflejar las ideas que tengas en mente para tu proyecto.</p>
-        </article> <br>
-    </section>
+    <section> <img class="BANNER1" src="../imagenes/banner-02.jpg" alt="imagen de patter pintado a mano"></section>
 
-
-            <!-- Acá arranca el portfolio-->
+        <!-- Acá arranca el portfolio-->
 
 <!-- Abrir imagen -->
 <div class="ful-img" id="fulImgBox">
@@ -53,35 +46,41 @@
 
 <main id="portfolio">
     <section>
-        <h2 style="background-color:  rgb(255, 197, 197); color: white;"> MI PORTFOLIO</h2>
+        <h2 style="background-color:  rgb(255, 197, 197); color: white;">PATTERNS</h2>
         <br>
     <article class="rapports">
-
+        <img class="img-1" src="../imagenes/acido.jpg" onclick="openFulImg(this.src)" alt="pattern estilo acido"> <br>
         <img class="img-1" src="../imagenes/flores y hojas-02.jpg" onclick="openFulImg(this.src)" alt="pattern hojas y flores"> <br>
-        <input class="main__boton" type="submit" value="Ver más diseños de rapports">
+        <img class="img-1" src="../imagenes/animal print.jpg" onclick="openFulImg(this.src)" alt="Pattern animal print leopardo"> <br>
     </article>
     </section>
     <section>
+        <h2 style="background-color:  rgb(255, 197, 197); color: white;;">ILUSTRACIONES</h2>
+        <br>
     <article class="ilustración">
+        <img class="img-2" src="../imagenes/ILUSTRACION 1FINAL.jpg" onclick="openFulImg(this.src)" alt="Ilustracion de una bicicleta y un mate en la montaña"> <br>
+        <img class="img-2" src="../imagenes/Escaladora final.jpg" onclick="openFulImg(this.src)" alt="Ilustracion personaje escalando"> <br>
         <img class="img-2" src="../imagenes/con fondo acuarela profundidad.jpg" onclick="openFulImg(this.src)" alt="Ilustracion personaje andando en rollers"> <br>
-        <input class="main__boton" type="submit" value="Ver más ilustraciones">
     </article>
     </section>
     <section>
+        <h2 style="background-color:  rgb(255, 197, 197); color: white;">FOTOGRAFIAS</h2>
+        <br>
     <article class="fotografia" style="padding-bottom: 5%;">
+        <img class="img-3" src="../imagenes/Camila Ayelen Pereira Murioni - persona 1.jpg" onclick="openFulImg(this.src)" alt="Fotografia de una persona sacando una foto en la montaña"> <br>
+        <img class="img-3" src="../imagenes/Camila Ayelen Pereira Murioni -persona2.jpg" onclick="openFulImg(this.src)" alt="fotografia del sur argentino con bosque y montañas"> <br>
         <img class="img-3" src="../imagenes/Camila Ayelen Pereira Murioni -paisaje 2.jpg" onclick="openFulImg(this.src)" alt="fotografia del lanin"> <br>
-        <input class="main__boton" type="submit" value="Ver más fotografias">
     </article>
     </section> <br>
 </main>
 
 
-            <!-- Pie de pagina -->
+        <!-- Pie de pagina -->
         <footer>
-            <img src="./imagenes/footer.png" class="imagenfooter" alt="Logo y nombre completo">
+            <img src="../imagenes/footer.png" class="imagenfooter" alt="Logo y nombre completo">
         </footer>
 
-    <script src="./Scrip/script.js"></script>
+    <script src="../Scrip/script.js"></script>
 
 </body>
 </html>

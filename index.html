@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina prueba</title>
+    <link rel="stylesheet" href="./assets/CSS/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <!-- Metaetiquetas de posicionamiento -->
+        <meta property="og:title" content="Portfolio Camila Pereira">
+        <meta property="og:description" content="Podes conocer un poco más sobre mi y mis trabajos">
+        <meta name="keywords" content="Diseño textil, ilustración, fotografía"/>
+        <meta property="og:type" content="Pagina Web">
+        <meta property="og:image" content="https://camilapereiramurioni.github.io/PortfolioCamilaPereiraMurioni/">
+        <meta name="author" content="Camila Ayelen Pereira Murioni" />
+        <meta name="copyright" content="Propietario del copyright"/>
+        <!-- favicon -->
+        <link rel="icon" href="./assets/imagenes/favicon.ico.png">
+
+</head>
+<!-- Acá arranca la pagina -->
+<body>
+    <!-- Encabezado de la pagina -->
+    <header>
+        <h1 class="alima">ALI<span class="rotate">M</span>A</h1>
+        <br>
+        <nav>
+            <a href="./index.html" class="nav-vin">SOBRE MI</a>
+            <a href="./assets/Secciones/portfolio.html" class="nav-vin">PORTFOLIO</a>
+            <a href="./assets/Secciones/contacto.html" class="nav-vin">CONTACTO</a>
+        </nav>
+    </header>
+
+    <section> <img class="BANNER1" src="./assets/imagenes/banner-02.jpg" alt="imagen de patter pintado a mano"></section>
+    <section>
+        <article id="sobremi"> 
+            <img class="imagenperfil" src="./assets/imagenes/perfil.jpg" alt="Ilustracion mia"> 
+            <p class="cv">Mi nombre es <b>Camila Ayelen Pereira Murioni</b>, me recibi de la Universidad de Buenos Aires (UBA), en la cual obtuve mi titulo de Diseñaroda Textil, trabajo desde el año 2017, aprovechando mi experiencia en el campo. En este momento soy freelance para empresas de moda y estudios de diseño. Además, trabajo como ilustradora, diseñadora gráfico y de fotografa, conocimientos que adquiri gracias a distintos cursos y experiencia laboral en el area. Mi trabajo fusiona las artes manuales con el diseño digital para lograr reflejar las ideas que tengas en mente para tu proyecto.</p>
+        </article> <br>
+    </section>
+
+
+            <!-- Acá arranca el portfolio-->
+
+<!-- Abrir imagen -->
+<div class="ful-img" id="fulImgBox">
+    <img src="./assets/imagenes/acido.jpg" id="fulImg" alt="Acido">
+    <span onclick="closeImg()">X</span>
+</div>
+
+<main id="portfolio">
+    <section>
+        <h2 style="background-color:  rgb(255, 197, 197); color: white;"> MI PORTFOLIO</h2>
+        <br>
+    <article class="rapports">
+
+        <img class="img-1" src="./assets/imagenes/flores y hojas-02.jpg" onclick="openFulImg(this.src)" alt="pattern hojas y flores"> <br>
+        <input href="./assets/Secciones/portfolio.html" class="main__boton" type="submit" value="Ver más diseños de rapports">
+    </article>
+    </section>
+    <section>
+    <article class="ilustración">
+        <img class="img-2" src="./assets/imagenes/con fondo acuarela profundidad.jpg" onclick="openFulImg(this.src)" alt="Ilustracion personaje andando en rollers"> <br>
+        <input class="main__boton" type="submit" value="Ver más ilustraciones">
+    </article>
+    </section>
+    <section>
+    <article class="fotografia" style="padding-bottom: 5%;">
+        <img class="img-3" src="./assets/imagenes/Camila Ayelen Pereira Murioni -paisaje 2.jpg" onclick="openFulImg(this.src)" alt="fotografia del lanin"> <br>
+        <input class="main__boton" type="submit" value="Ver más fotografias">
+    </article>
+    </section> <br>
+</main>
+
+
+            <!-- Pie de pagina -->
+        <footer>
+            <img src="./assets/imagenes/footer.png" class="imagenfooter" alt="Logo y nombre completo">
+        </footer>
+
+    <script src="./assets/Scrip/script.js"></script>
+
+</body>
+</html>
