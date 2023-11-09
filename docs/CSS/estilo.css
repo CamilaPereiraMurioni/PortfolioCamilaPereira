@@ -343,9 +343,13 @@ footer {
     color: white;
     padding: 50px;
     margin: auto;
-
 }
 
+.imagenfooter {
+    align-content: center;
+    height: auto;
+    width: 500px;
+}
 
 /* Media para 768px */
 
@@ -534,6 +538,7 @@ footer {
         margin-top: -50px;
         height: 200px;
         max-width: 100%;
+        object-fit: cover;
     }
     
     nav{
@@ -707,7 +712,11 @@ footer {
     
     }
     
-
+    .imagenfooter {
+        align-content: center;
+        height: auto;
+        width: 300px;
+    }
 
 }
 
@@ -719,6 +728,7 @@ footer {
     margin-top: -50px;
     height: 200px;
     max-width: 100%;
+    object-fit: cover;
 }
 
 .alima {
@@ -892,5 +902,9 @@ footer {
     padding: 50px;
     margin: auto;
 }
-
+.imagenfooter {
+    align-content: center;
+    height: auto;
+    width: 200px;
+}
 }
