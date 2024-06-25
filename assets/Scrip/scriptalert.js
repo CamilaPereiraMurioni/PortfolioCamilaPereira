@@ -1,5 +1,5 @@
     // Mensaje para que me dejen su mail posibles clientes
-    function mostrarAlertaEnInicio() {
+    //.function mostrarAlertaEnInicio() {
         var respuesta = prompt("Por favor, deja tu correo para conocer más de mi trabajo:");
         
         if (respuesta !== null) {
@@ -13,6 +13,6 @@
         localStorage.setItem('alertaMostrada', 'true');
         }
 
-    window.onload = function() {
+    //window.onload = function() {
         mostrarAlertaEnInicio();
     };
