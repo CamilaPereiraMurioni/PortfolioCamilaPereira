@@ -34,3 +34,19 @@ En esta seccion la gente puede contactarme para trabajar conmigo en un proyecto,
 ¡Gracias por tomarte el tiempo de explorar mi trabajo! Espero que encuentres inspiración en mis diseños y estás cordialmente invitado a contactarme en cualquier momento.
 
 ----------------------------------------------------------------------------------
+
+Construido con
+
+HTML
+CSS
+JAVASCRIPT
+
+----------------------------------------------------------------------------------
+
+Autora
+
+Camila Ayelen Pereira Murioni
+
+----------------------------------------------------------------------------------
+
+
